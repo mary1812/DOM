@@ -7,22 +7,28 @@
     <title>DOM</title>
   </head>
   <body>
-    <h1 id = "ph">wrong</h1>
+    <div id="root"> 
+      <button data-background-color="red">Red</button>
+      <button data-background-color="blue">Blue</button>
+      <button data-background-color="yellow">Yellow</button>
+      <button data-background-color="green">Green</button>
+      <button data-background-color="unset">Reset</button>
+    </div>
 
-    <main>
-    <section class = "main">
-      <h1>correct</h1>
-      <img id = "img63"src="" alt="" />
-      <p>
-        Lorem ipsum <span class="span123">dolor, sit amet </span>consectetur adipisicing elit. Provident modi
-        at atque dolor ipsum, eaque natus voluptatem expedita a. Impedit velit
-        quos officia, accusantium eum porro fugit id optio repellendus tenetur
-        similique soluta!
-      </p>
-    </section>
-    <img />
-  </main>
+    <br>
 
+    <button
+      data-key="value"
+      data-test-property="test"
+      data-secretUrl="http://127.0.0.1:3000"
+    >
+      Login
+    </button>
+    <!--http://127.0.0.1:3000/-->
+    <button data-secretUrl="http://127.0.0.1:3001/">Sign Up</button>
+    <!--http://127.0.0.1:3001/-->
     <script src="assets/js/index.js"></script>
+
+
   </body>
 </html>
